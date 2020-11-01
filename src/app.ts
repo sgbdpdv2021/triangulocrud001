@@ -68,7 +68,8 @@ const main = async () => {
 
                 await oSchema.save()
                 .then( (doc) => console.log('Salvado Correctamente: '+ doc) )
-                .catch( (err: any) => console.log('Error: '+ err)) // concatenando con cadena muestra mensaje
+                .catch( (err: any) => console.log('Error: '+ err)) 
+                // concatenando con cadena muestra sólo el mensaje
 
         /*  
         ESTA FORMA NO VALE EN ESTE CASO PORQUE SE EJECUTARÍAN LAS SIGUIENTES INSTRUCCIONES 
