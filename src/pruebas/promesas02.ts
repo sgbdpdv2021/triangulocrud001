@@ -19,7 +19,7 @@ const asyncAction = (n: number) => {
         else reject('Recibido distinto de 1!!')
       }, 1500);
     });
-    return promise;
+    return promise
   }
   
 asyncAction(1)
