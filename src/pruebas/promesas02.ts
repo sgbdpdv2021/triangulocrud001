@@ -27,7 +27,7 @@ asyncAction(1)
     console.log('Estamos en then: '+success); 
 }) 
 .catch( (error) => { 
-   console.log('Estamos en catch: '+ error); 
+   console.log('Estamos en catch: '+ error)
 });
 
 
